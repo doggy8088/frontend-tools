@@ -21,6 +21,7 @@
 * [anvil.js](https://github.com/anviljs/anvil.js/)
 * [modjs](http://modulejs.github.io/modjs/)
 * [AUTOMATON](http://indigounited.com/automaton/)
+* [Fire.app](http://fireapp.handlino.com/)
 
 ---
 
@@ -54,6 +55,7 @@
 * [Metro UI CSS](http://metroui.org.ua/)
 * [workless](http://workless.ikreativ.com/)
 * [99lime](http://www.99lime.com/)
+* [SUSY](http://susy.oddbird.net/)
 
 ---
 
