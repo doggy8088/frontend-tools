@@ -56,6 +56,7 @@
 * [workless](http://workless.ikreativ.com/)
 * [99lime](http://www.99lime.com/)
 * [SUSY](http://susy.oddbird.net/)
+* [UIKit](http://www.getuikit.com/)
 
 ---
 
@@ -73,7 +74,7 @@
 	*  [jQuery++](http://jquerypp.com/)
 * [zepto](http://zeptojs.com/)
 * [tire](http://tirejs.com/)
-* [mooTools](http://mootools.net/)
+* [mootools](http://mootools.net/)
 * [DOMAssistant](http://www.domassistant.com/)
 * [Enders The Jeesh](https://github.com/ender-js/jeesh)
  	* [domReady](https://github.com/ded/domready)
@@ -182,6 +183,7 @@
 * [w2ui](http://w2ui.com/web/)
 * [basis.js](http://basisjs.com/)
 * [webix](http://docs.webix.com/)
+* [UIKit](http://www.getuikit.com/)
 
 
 ---
@@ -274,12 +276,14 @@
 * [google closure compiler](https://developers.google.com/closure/compiler/)
 * [uglifyJS](https://github.com/mishoo/UglifyJS)
 * [Esprima](http://esprima.org/index.html)
+* [Online YUI](http://refresh-sf.com/yui/)
 
 ---
 
 ######CSS 最佳化/最小化/壓縮工具 (CSS Optimizer/Minification/Compression Tools)
 * [ycssmin](https://github.com/yui/ycssmin)
 * [CSSO](http://css.github.io/csso/)
+* [Online YUI](http://refresh-sf.com/yui/)
 
 ---
 
