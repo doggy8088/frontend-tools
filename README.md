@@ -1,27 +1,36 @@
 #各式 Web 前端開發工具整理
 
-這裡收集了一系列各式各樣與「網頁前端」相關的開發工具、函式庫與參考文件，這些工具僅針對一般桌上型/筆記型電腦的顯示環境為主 (不含平板或手機等行動版網頁相關工具)。
+##這裡收集了一系列各式各樣與「網頁前端」相關的開發工具、函式庫與參考文件，這些工具僅針對一般桌上型/筆記型電腦的顯示環境為主 (不含平板或手機等行動版網頁相關工具)。
+#這些內容已經發展成一本書"Front-end Handbook":https://www.gitbook.com/book/frontendmasters/front-end-handbook/details
 
 
 ##程式碼編寫工具 (Coding Tools)
 
 
-######工作流程/建置/組合 (Workflow/Builds/Assemblers)
+######工作流程/建置/組合 (Workflow/Builds/Assemblers/Task-runners/Dev Opts)
 
+* [bud](http://github.com/azer/bud)
 * [lumbar](http://walmartlabs.github.io/lumbar/)
 * [brunch](http://brunch.io/)
 * [grunt](http://gruntjs.com/)
 	* [lineman](https://github.com/testdouble/lineman)
 	* [yeoman](http://yeoman.io/)
 	* [Takeoff](http://tsvensen.github.io/Takeoff/)
-* [mimosa](http://mimosajs.com/) 
+* [gulpjs](http://gulpjs.com/)
+* [broccoli](https://github.com/joliss/broccoli)
+* [mimosa](http://mimosa.io/)
 * [codeKit](http://incident57.com/codekit/)
 * [liveReload](http://livereload.com/)
 * [stealJS](http://javascriptmvc.com/docs.html#!stealjs)
 * [anvil.js](https://github.com/anviljs/anvil.js/)
 * [modjs](http://modulejs.github.io/modjs/)
+* [nodefront](http://karthikv.github.com/nodefront/)
 * [AUTOMATON](http://indigounited.com/automaton/)
 * [Fire.app](http://fireapp.handlino.com/)
+* [volo](http://volojs.org/)
+* [roots](http://roots.cx/)
+* [middleman](http://middlemanapp.com/)
+* [fb-flo](http://facebook.github.io/fb-flo/)
 
 ---
 
@@ -31,6 +40,8 @@
 * [component](https://github.com/component/component)
 * [ender](http://ender.jit.su/)
 * [jam](http://jamjs.org/)
+* [volo](http://volojs.org/)
+* [jspm.io](http://jspm.io/)
 
 ---
 
@@ -53,9 +64,16 @@
 * [purecss](http://purecss.io/)
 * [tuktuk](http://tuktuk.tapquo.com/)
 * [Metro UI CSS](http://metroui.org.ua/)
+* [Flat UI Kit](http://designmodo.github.io/Flat-UI/)
 * [workless](http://workless.ikreativ.com/)
 * [99lime](http://www.99lime.com/)
 * [SUSY](http://susy.oddbird.net/)
+* [ink](http://ink.sapo.pt/)
+* [Semantic UI](http://semantic-ui.com/)
+* [uikit](http://www.getuikit.com)
+* [cascade-framework](http://www.cascade-framework.com/)
+* [minfwk](http://minfwk.com/)
+* [layers](http://eiskis.net/layers/)
 
 ---
 
@@ -65,6 +83,13 @@
 * [Rock Hammer](http://stuffandnonsense.co.uk/projects/rock-hammer/)
 * [html5bones](http://html5bones.com/)
 * [dCodes](http://www.dcodes.net/2/docs/index.html)
+
+---
+
+######前端 HTML/CSS/JS 基底結構/樣板
+
+* [Headstart](http://www.headstart.io/)
+* [google Web Starter Kit](https://developers.google.com/web/starter-kit/)
 
 ---
 
@@ -80,11 +105,14 @@
  	* [query](https://github.com/ded/qwery)
 	* [bonzo](https://github.com/ded/bonzo)
 	* [bean](https://github.com/fat/bean)
-	
+* [rye](http://ryejs.com/)
+* [dom](https://github.com/component/dom)
+
 ---
 
 ######各式 JavaScript 輔助工具/函式庫
 * [lo-dash](http://lodash.com/)
+* [fn.js](http://eliperelman.com/fn.js/)
 * [lazy.js](http://danieltao.com/lazy.js/)
 * [string.js](http://stringjs.com/)
 * [boiler.js](http://www.boilerjs.com/)
@@ -105,12 +133,18 @@
 * [Upcast](https://github.com/rowanmanning/upcast)
 * [taffydb](http://www.taffydb.com/)
 * [communist](http://communistjs.com/)
+* [Catiline.js](http://Catilinejs.com/)
+* [XRegExp](http://xregexp.com/)
+* [duckyjs](http://duckyjs.com/)
+* [mathjs](http://mathjs.org/)
+* [spectra.js](http://aakpat6.github.io/spectra/)
 
 ---
 
 ######鍵盤控制相關工具/函式庫
 * [keys.js](https://github.com/bitwalker/keys.js)
 * [mousestrap](http://craig.is/killing/mice)
+* [Keypress](http://dmauro.github.io/Keypress/)
 
 ---
 
@@ -123,9 +157,11 @@
 
 ---
 
-######CSS 關輔助工具/函式庫
+######CSS Helpers
+* [typecsset](https://github.com/csswizardry/typecsset)
 * [-prefix-free](http://leaverou.github.io/prefixfree/)
 * [CSScomb](http://csscomb.com)
+* [Autoprefixer](https://github.com/ai/autoprefixer)
 
 ---
 
@@ -146,6 +182,10 @@
 * [AXEL](https://github.com/amol-/axel)
 * [lmd](http://lmdjs.org/)
 * [LazyJS](http://bevacqua.github.io/lazyjs/)
+* [jspm.io](http://jspm.io/)
+* [lazy.js](https://github.com/mercadolibre/lazy.js)
+* [webpack](https://github.com/webpack/webpack)
+* [systemjs](https://github.com/systemjs/systemjs)
 
 ---
 
@@ -161,6 +201,10 @@
 * [doT.js](http://olado.github.io/doT/)
 * [underscore](http://underscorejs.org/#template)
 * [mold](https://github.com/idottv/Mold)
+* [nunjucks](http://jlongster.github.io/nunjucks/)
+* [Swig](http://paularmstrong.github.io/swig/)
+* [jtmpl](http://jtmpl.com/)
+* [teddy](https://github.com/kethinov/teddy)
 
 ---
 
@@ -182,8 +226,13 @@
 * [w2ui](http://w2ui.com/web/)
 * [basis.js](http://basisjs.com/)
 * [webix](http://docs.webix.com/)
-
-
+* [alloyui](http://alloyui.com/)
+* [JavaScript (from sync fusion)](http://www.syncfusion.com/products/javascript)
+* [jQWidgets](http://www.jqwidgets.com/)
+* [formstone](http://formstone.it/)
+* [winJS](http://try.buildwinjs.com/#play)
+* [assets.cms.gov](http://assets.cms.gov/)
+* [zippy ui](http://zippyui.com/)
 ---
 
 ######測試執行工具 (Test Runners)
@@ -191,12 +240,24 @@
 * [testem](https://github.com/airportyh/testem)
 * [Karma](http://karma-runner.github.io/0.8/index.html)
 * [intern](http://theintern.io/)
+* [buster.js](http://busterjs.org/)
+* [prova](http://github.com/azer/prova)
 
 ---
 
 ######使用者自動化測試工具 (User Automated Testing)
 
 * [casperJS](http://casperjs.org/)
+* [Selenium](http://www.seleniumhq.org/)
+* [phantomJS](http://phantomjs.org/)
+* [saucelabs](https://saucelabs.com)
+* [browserstack](http://www.browserstack.com/)
+* [browserling](https://browserling.com/)
+* [DalekJS](http://dalekjs.com/)
+* [testling-ci](http://ci.testling.com/)
+* [crossbrowsertesting.com](http://crossbrowsertesting.com/)
+* [nightwatch.js](http://nightwatchjs.org/)
+* [Protractor](https://github.com/angular/protractor)
 
 ---
 
@@ -207,6 +268,29 @@
 * [qunit](http://qunitjs.com/)
 * [jasmine](http://pivotal.github.com/jasmine/)
 * [expect.js](https://github.com/LearnBoost/expect.js)
+* [jest](http://facebook.github.io/jest/)
+* [jstest](http://jstest.jcoglan.com/)
+
+---
+
+######測試替身(Test spies, stubs and mocks)
+
+* [sinon.js](http://sinonjs.org/)
+
+---
+
+######Code Coverage
+
+* [istanbul](http://gotwarlost.github.io/istanbul/)
+* [blanket.js](http://blanketjs.org/)
+* [coveralls](https://coveralls.io/)
+
+---
+
+######Code Complexity & Reports
+
+* [jscomplexity](http://jscomplexity.org/)
+* [plato](https://github.com/es-analysis/plato)
 
 ---
 
@@ -242,6 +326,7 @@
 * [node-jsdoc-toolkit](https://github.com/p120ph37/node-jsdoc-toolkit)
 * [dox](https://github.com/visionmedia/dox)
 	* [markdox](https://github.com/cbou/markdox)
+	* [dox-foundation](https://github.com/punkave/dox-foundation)
 
 ---
 
@@ -256,6 +341,8 @@
 * [jshint](http://www.jshint.com/)
 * [JSLint Error Explanations](http://jslinterrors.com/)
 * [jscomplexity](http://jscomplexity.org/)
+* [eslint](https://github.com/eslint/eslint)
+* [node-jscs](https://github.com/mdevils/node-jscs/)
 
 ---
 
@@ -267,6 +354,7 @@
 
 ######HTML 品質驗證工具 (HTML Quality Validators)
 * [html-inspector](https://github.com/philipwalton/html-inspector)
+* [htmlHint](http://htmlhint.com/)
 
 ---
 
@@ -294,6 +382,8 @@
 * [less](http://lesscss.org)
 	* [LESS Elements](http://lesselements.com/): Mixins library for LESS
 	* [Semantic.gs](http://semantic.gs/): Semantic CSS grid system
+* [Absurd](http://krasimir.github.io/absurd/#client-side-tests)
+* [myth](http://www.myth.io/)
 
 ######JavaScript 前置處理器 (Languages Compiling to JS) ([http://altjs.org/](http://altjs.org/))
 * [coffeeScript](http://coffeescript.org/)
@@ -307,8 +397,20 @@
 ######HTML 前置處理器 (Languages Compiling to HTML)
 * [jade](http://jade-lang.com/)
 * [haml](https://github.com/haml/haml)
+* [blade](https://github.com/bminer/node-blade)
 * [markdown](http://daringfireball.net/projects/markdown/)
 * [slim](http://slim-lang.com/)
+
+---
+
+######Routers
+
+* [crossroads.js](http://millermedeiros.github.io/crossroads.js/)
+* [davis.js](http://davisjs.com/)
+* [Routie](http://projects.jga.me/routie/)
+* [director](https://github.com/flatiron/director)
+* [Finch.js](http://stoodder.github.io/finchjs/)
+* [page.js](http://visionmedia.github.io/page.js/)
 
 ---
 
@@ -328,6 +430,9 @@
 * [sparky.js](http://sparkyjs.com/)
 * [hoodie](http://hood.ie/)
 * [lure.js](http://tylerbuchea.com/projects/lure/#/)
+* [riot.js](https://github.com/moot/riotjs/)
+* [vue.js](http://vuejs.org/)
+* [mithril](http://lhorie.github.io/mithril/)
 
 ---
 
@@ -354,6 +459,9 @@
 * [qooxdoo](http://qooxdoo.org/)
 * [google closure](https://developers.google.com/closure/)
 
+######Front End Application monitoring
+
+* [Caliper](http://caliper.io)
 
 ##參考資料/教學手冊/相容性套件/程式產生器等相關工具 (Reference/Guide/Polyfill/Generator Tools)
 
@@ -406,6 +514,7 @@
 	* [D3.js](http://d3js.org/)
 	* [raphaeljs](http://raphaeljs.com/)
 	* [bonsaijs.org](http://bonsaijs.org/)
+	* [snapsvg.io](http://snapsvg.io/)
 * [Canvas](https://developer.mozilla.org/en-US/docs/HTML/Canvas)
 	* [paper.js](http://paperjs.org/)
 	* [fabric.js](http://fabricjs.com/)
@@ -453,6 +562,7 @@
 * [CSS3 Sandbox](http://westciv.com/tools/index.html)
 * [The Shapes of Css](http://coderwall.com/p/xrxaxa)
 * [CSS matic](http://www.cssmatic.com/)
+* [extractcss.com](http://extractcss.com/)
 
 ---
 
@@ -466,6 +576,7 @@
 * [Starbucks Style Guide](http://www.starbucks.com/static/reference/styleguide/)
 * [Github CSS styleguide](https://github.com/styleguide/css)
 * [General CSS notes, advice and guidelines](https://github.com/csswizardry/CSS-Guidelines)
+* [yelp styleguide](http://www.yelp.com/styleguide)
 
 ---
 
@@ -491,7 +602,8 @@
 * [Draft Specification for ES.next (Ecma-262 Edition 6)](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts)
 * [es6-shim](https://github.com/paulmillr/es6-shim)
 * [ECMA-262 6th Edition/Draft](http://people.mozilla.org/~jorendorff/es6-draft.html)
- 
+* [ECMAScript Support Matrix](http://pointedears.de/scripts/test/es-matrix/)
+
 ---
 
 ######JavaScript 編寫風格與慣例指引 (JavaScript Style/Conventions Guides)
@@ -501,6 +613,7 @@
 * [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 * [jsbeautifier](http://jsbeautifier.org/)
 * [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+* [Meteor Style Guide](https://github.com/meteor/meteor/wiki/Meteor-Style-Guide)
 
 ---
 
@@ -534,6 +647,7 @@
 * [Best Practices for Speeding Up Your Web Site](http://developer.yahoo.com/performance/rules.html)
 * [High Performance Web Sites - 14 Rules for Faster-Loading Web Sites](http://stevesouders.com/hpws/)
 * [Even Faster Web Sites](http://stevesouders.com/efws/)
+* [google web fundamentals](https://developers.google.com/web/fundamentals/)
 
 
 ##各式線上編輯器/開發工具 ([REPL](http://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop "Read–eval–print loop"))
@@ -547,6 +661,7 @@
 ######JavaScript 線上編輯器 (JS focused editors)
 * [jsfiddle](http://jsfiddle.net/)
 * [jsbin](http://jsbin.com/)
+* [es6fiddle](es6fiddle.net)
 
 ######正規表示式編輯器 (Regular Expression editors)
 * [Scriptular](http://scriptular.com/)
@@ -565,6 +680,8 @@
 * [Plunker](https://github.com/filearts/plunker)
 * [cssdeck](http://cssdeck.com/)
 * [codepen](http://codepen.io/)
+* [liveweave](http://liveweave.com/)
+* [codemagic.gr](http://codemagic.gr/)
 
 ######執行/測試代碼工具 (Execute/Test live code)
 * [runnable](http://runnable.com/)
@@ -582,10 +699,19 @@
 ##瀏覽器安全性 (Browser Security)
 
 * [Browser Security Handbook](http://code.google.com/p/browsersec/wiki/Main)
+* [DOMPurify](https://github.com/cure53/DOMPurify)
+* [html5sec.org](https://html5sec.org/)
+* [js-xss](https://github.com/leizongmin/js-xss)
 
 ##各式 CSS/HTML Hacks 整理 (Browser Hacks)
 
 * [browserhacks.com](http://www.browserhacks.com/)
+
+
+##API 先行,CMS 服務(API first, CMS Service)
+
+* [contentful](https://www.contentful.com)
+* [prismic.io](https://prismic.io)
 
 
 ##給前端開發人員的後端服務 (Backend services for frontend developers)
@@ -604,12 +730,36 @@
 * [backlift.com](https://backlift.com/index.html)
 * [hull.io](http://hull.io/)
 * [stormpath.com](http://stormpath.com/)
+* [dreamfactory](https://www.dreamfactory.com/)
+* [userapp.i](https://www.userapp.io/)
+* [goinstant](https://goinstant.com/)
+* [myjson.com](http://myjson.com/)
 
 ##API 開發與測試工具
 
 * [apiary](http://apiary.io/)
+* [api engine](https://apiengine.io/)
+* [Swagger](https://developers.helloreverb.com/swagger/)
+* [postman](http://www.getpostman.com/)
+* [apidocjs](http://apidocjs.com/)
+* [apiblueprint](http://apiblueprint.org/)
+
+##假API(API Mocking)
+* [mockable](https://www.mockable.io/)
 * [mocky.io](http://www.mocky.io/)
 * [FillText.com](http://www.filltext.com/)
+* [JSONPlaceholder](http://jsonplaceholder.typicode.com/)
+* [faker.js](https://github.com/Marak/Faker.js)
+* [json-generator](http://www.json-generator.com)
+* [caddis](https://github.com/bustardcelly/caddis)
+* [dyson](https://github.com/webpro/dyson)
+* [json-server](https://github.com/typicode/json-server)
+
+##假圖(Image Mocking)
+
+* [placekitten](http://placekitten.com/)
+* [PLACEHOLD.IT](http://placehold.it/)
+* [hhhhold.com](http://hhhhold.com/)
 
 ##JSON 資料操作/查詢工具 (JSON Query Tools)
 
@@ -619,8 +769,36 @@
 * [JSONiq](http://www.jsoniq.org/)
 * [json-query](https://github.com/mmckegg/json-query)
 * [SpahQL](http://danski.github.io/spahql/)
+* [json-mask](https://github.com/nemtsov/json-mask)
+* [objeq](https://github.com/agilosoftware/objeq)
+
+##JSON驗証工具(JSON Validation Tools)
+
+* [SCHEMA-INSPECTOR](http://atinux.github.io/schema-inspector/)
 
 ##格式化工具
 
 * [Online JavaScript beautifier](http://jsbeautifier.org/)
 * [CSS Beautifier](http://html.fwpolice.com/css/)
+
+##前端資料庫(Front-end DB's)
+
+* [pouchdb](http://pouchdb.com/)
+* [Web Storage](http://www.w3.org/TR/webstorage/)
+* [Indexed Database API](http://www.w3.org/TR/IndexedDB/)
+* [lokiJS](http://lokijs.org/)
+* [underscore.db](https://github.com/typicode/underscore.db)
+* [Based JS](https://github.com/TremayneChrist/Based)
+
+## JavaScript函式庫與工具的目錄  (Catalog/Collection of JavaScript Libs and Tools)
+
+* [jster](http://jster.net/)
+* [thetoolbox.cc](http://thetoolbox.cc/)
+* [javascriptoo.com](http://www.javascriptoo.com/)
+* [microjs.com](http://microjs.com/)
+* [JSDB.IO](http://www.jsdb.io/?sort=trending)
+
+
+##靜態網站建置器(Static Site Generators)
+
+* [http://staticsitegenerators.net/](http://staticsitegenerators.net/)
