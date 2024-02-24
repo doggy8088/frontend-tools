@@ -506,6 +506,7 @@
 
 ######JSON 產生器
 * [JSON Generator &ndash; tool for generating random JSON data](http://www.json-generator.com/)
+* Convert JSON to TypeScript Interface(https://json-5.com/json-to-typescript)
 
 ---
 
@@ -578,6 +579,7 @@
 * [jsoneditoronline.org](http://jsoneditoronline.org/)
 * [JSON Tinker](http://json.bubblemix.net/)
 * [JSONmat](http://jsonmate.com/)
+* [JSON5 Editor](https://json-5.com/)
 
 ##瀏覽器安全性 (Browser Security)
 
